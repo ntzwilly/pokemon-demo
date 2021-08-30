@@ -1,7 +1,7 @@
 const container = document.querySelector('#container');
 const baseURL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 
-for(let i = 1; i <= 800; i++){
+for(let i = 1; i <= 350; i++){
   const pokemon = document.createElement('div');
   pokemon.classList.add('pokemon');
   const label = document.createElement('span');
